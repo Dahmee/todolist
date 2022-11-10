@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ff74b1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  width: 40%;
+  max-width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffd6ec;
+  position: absolute;
+}
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+  font-family: "lato", sans-serif;
+  padding: 20px;
+}
+.logo {
+  text-decoration: none;
+  font-size: 40px;
+  color: #937dc2;
+}
+.list-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sub-logo {
+  text-decoration: none;
+  color: grey;
+}
+#super {
+  vertical-align: super;
+  font-size: medium;
+}
+li {
+  list-style: none;
+}
+hr {
+  border: 1px solid #ff74b1;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todo-heading {
+  color: black;
+  padding: 20px;
+  margin: 0 auto;
+}
+.todo-item {
+  display: flex;
+  min-width: 300px;
+}
+.todo-item > div {
+  display: flex;
+  min-width: 100%;
+}
+.todo-item .todo-textcontent {
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 10px;
+  font-family: "Lato", sans-serif;
+}
+.todo-action {
+  padding: 5px 16px;
+  border-style: hidden;
+  border-radius: 10px;
+}
+
+.edit {
+  background-color: #3f0071;
+  color: white;
+}
+.edit:hover {
+  background-color: #937dc2;
+  color: #3f0071;
+}
+.delete {
+  background-color: #ff74b1;
+  color: #3f0071;
+}
+.delete:hover {
+  background-color: #ff577f;
+  color: white;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 500px;
+  max-width: 80%;
+}
+.form-input {
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #ff74b1;
+  padding-right: 16px;
+  padding-left: 16px;
+  font-size: 16px;
+  font-family: "lato" sans-serif;
+  margin-bottom: 20px;
+}
+.add-btn {
+  padding: 10px 16px;
+  background-color: #ff74b1;
+  color: #3f0071;
+  font-family: "Lato" sans-serif;
+  font-size: 16px;
+}
+.add-btn:hover {
+  background-color: #3f0071;
+  color: white;
+}
+i {
+  font-size: 60px;
+  color: #3f0071;
+  position: absolute;
+  bottom: -30px;
+  right: 50%;
+}
+#icon-btn {
+  cursor: pointer;
+}
